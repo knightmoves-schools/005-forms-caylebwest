@@ -3,6 +3,25 @@
 
     </head>
     <body>
-     
+     <form action="https://www.catfreephotoapp.com/sumbit_cat_photo">
+        <input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>
+        <label for="indoor">Indoor</label>
+
+        <input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">
+        <label for="indoor">Outdoor</label>
+        <br>
+
+        <input id="loving" type="checkbox" name="personality" value="loving" checked>
+        <label for="loving">Loving</label>
+
+        <input id="lazy" type="checkbox" name="personality" value="lazy">
+        <label for="lazy">Lazy</label>
+        
+        <input type="energetic" type="checkbox" name="personality" value="energetic">
+        <label for="energetic">Energetic</label>
+        <br>
+        <input type="text" name="cat-url" id="cat photo URL" required>
+        <button type="submit">Submit</button>
+     </form>
     </body>
 </html>
